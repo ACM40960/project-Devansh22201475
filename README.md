@@ -52,8 +52,6 @@ Machine learning has become increasingly valuable in sales forecasting due to it
 
 **item_category_name** - name of item category
 
-## Exploratory Data Analysis
-![plot1](https://github.com/Devansh22201475/Project-ACM40960/Plots/Graph_1.png?raw=true)
 
 ## Installation
 
@@ -73,9 +71,28 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 from sklearn.model_selection import train_test_split
 from xgboost import XGBRegressor, plot_importance
+from lightgbm import LGBMRegressor
 from sklearn.metrics import mean_squared_error as MSE
 ```
-    
+
+## Exploratory Data Analysis
+![plot1](https://github.com/ACM40960/project-Devansh22201475/blob/main/Plots/Graph_1.png?raw=true)
+The plot shows the distribution of year wise foot fall across all the stores. It is observed that the busiest year was 2013 and the count has decreased over the years.
+
+![plot2](https://github.com/ACM40960/project-Devansh22201475/blob/main/Plots/Graph_2.png?raw=true)
+The plot shows the distribution of month wise foot fall across all the stores. It is observed that the busiest month was January and the least busiest was November. The count fluctuates for the remaining year.
+
+![plot3](https://github.com/ACM40960/project-Devansh22201475/blob/main/Plots/Graph_3.png?raw=true)
+The boxplot here describes how the revenue is spread across months. As the y-limit is very large, the box seems like a line which is mostly around 0-5000 Rubel. Also, there are months with very high revenue like in November.
+
+![plot4](https://github.com/ACM40960/project-Devansh22201475/blob/main/Plots/Graph_4.png?raw=true)
+To visualize the boxplot better, this distribution plot depicts the revenue share. It is clear that the price of items are widely distributed from 0-5000 Rubel and very few above 20000 Rubel.
+
+![plot5](https://github.com/ACM40960/project-Devansh22201475/blob/main/Plots/Graph_5.png?raw=true)
+The plot here depicts the distribution of Top 10 Products over Stores based on the revenue. We observe the different stores revenue for the Top 10 selling products.
+
+## Model Comaprision
+![plot6](https://github.com/ACM40960/project-Devansh22201475/blob/main/Plots/Model_Comparision.png?raw=true)
 ## XGBoost Model
 
 XGBoost is a gradient boosting algorithm that is known for its accuracy and speed, making it an ideal choice for demand forecasting tasks.
@@ -84,6 +101,26 @@ By using the XGBoost algorithm for demand forecasting, we can leverage the power
 
 ## LightGBM Model
 The light gradient boosting machine algorithm – also known as LGBM or LightGBM – is an open-source technique created by Microsoft for machine learning tasks like classification and regression. It is quite similar to XGBoost as it too uses decision trees to classify data.
+
+## Conclusion
+![plot6](https://github.com/ACM40960/project-Devansh22201475/blob/main/Plots/Graph_6.png?raw=true)
+
+The trend line plot here describes the sales of items per year. This gives us a clear idea of how the sales trend has changed over year for every month. We could see that the sales needs to be predicted for year 2015 for November (i.e. month 11) and December (i.e. month 12).
+
+We have then used the XGBoost Model and LightGBM model to understand which model best suits the data and provides more accurate results. On success full implementation of both models, we found out that the Root Mean Squared Error i.e. one of the significant indicators of model fit and we observed that the LighGBM model was a better fit as compared to XGBoost model.
+
+## References
+▶Sunitha Cheriyan and Shaniba Ibrahim. “Intelligent Sales Prediction Using Machine Learning Techniques” 2018. **2018 International Conference on Computing, Electronics Communications Engineering (iCCECE)**
+
+▶ K. Y. Yuta Kaneko. “A Deep Learning Approach for the Prediction of Retail Store Sales” 2016. **2016 IEEE 16th International Conference on Data Mining Workshops (ICDMW)**
+
+▶ M. K. B. Marko Bohanec. “Explaining machine learning models  in sales predictions” 2017. **Elsevier**. 71. Pages 416–428
+
+▶ B. M. Pavlyshenko. “Machine-Learning Models for Sales Time Series Forecasting” 2019. **2018 IEEE Second International Conference on Data Stream Mining Processing (DSMP), Lviv, Ukraine**
+
+▶ Z. Huo. “Sales Prediction based on Machine Learning” 2021. **2021 2nd International Conference on E-Commerce and Internet Technology (ECIT)**
+
+
 ## Authors
 
 - [@Advayta Zadoo (22201078)](https://www.linkedin.com/in/advayta-zadoo/)
