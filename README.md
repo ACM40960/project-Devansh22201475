@@ -55,6 +55,10 @@ Machine learning has become increasingly valuable in sales forecasting due to it
 
 ## :hammer_and_wrench: Installation
 
+Software Requirements:
+
+[![Python 3.7+](https://img.shields.io/badge/python-3.7+-blue.svg)](https://www.python.org/downloads/release/python-360/)
+
 Necessary Installation:
 
 ```python
