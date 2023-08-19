@@ -12,7 +12,7 @@ In the rapidly changing business landscape, sales forecasting remains crucial fo
 Machine learning has become increasingly valuable in sales forecasting due to its ability to analyze large volumes of data and uncover complex patterns. ML models can capture non-linear relationships, seasonal trends, and interactions among various factors to generate more accurate predictions. By incorporating ML techniques such as time series analysis and ensemble models, sales forecasting can be enhanced, leading to optimized inventory management and more effective sales strategies.
 
 
-## Architecture
+## :jigsaw: Architecture
 ![image](https://github.com/Devansh22201475/Project-ACM40960/assets/134631225/e6deca46-ede5-4422-a7d3-96f363163314)
 
 
@@ -53,7 +53,7 @@ Machine learning has become increasingly valuable in sales forecasting due to it
 **item_category_name** - name of item category
 
 
-## Installation
+## :hammer_and_wrench: Installation
 
 Necessary Installation:
 
@@ -75,7 +75,7 @@ from lightgbm import LGBMRegressor
 from sklearn.metrics import mean_squared_error as MSE
 ```
 
-## Exploratory Data Analysis
+## :bar_chart: Exploratory Data Analysis
 ![plot1](https://github.com/ACM40960/project-Devansh22201475/blob/main/Plots/Graph_1.png?raw=true)
 The plot shows the distribution of year wise foot fall across all the stores. It is observed that the busiest year was 2013 and the count has decreased over the years.
 
@@ -91,18 +91,18 @@ To visualize the boxplot better, this distribution plot depicts the revenue shar
 ![plot5](https://github.com/ACM40960/project-Devansh22201475/blob/main/Plots/Graph_5.png?raw=true)
 The plot here depicts the distribution of Top 10 Products over Stores based on the revenue. We observe the different stores revenue for the Top 10 selling products.
 
-## Model Comaprision
+## :dart: Model Comaprision
 ![plot6](https://github.com/ACM40960/project-Devansh22201475/blob/main/Plots/Model_Comparision.png?raw=true)
-## XGBoost Model
+## :atom: XGBoost Model
 
 XGBoost is a gradient boosting algorithm that is known for its accuracy and speed, making it an ideal choice for demand forecasting tasks.
 By using the XGBoost algorithm for demand forecasting, we can leverage the power of advanced machine learning techniques to make accurate predictions about future demand.
 
 
-## LightGBM Model
+## :electron: LightGBM Model
 The light gradient boosting machine algorithm – also known as LGBM or LightGBM – is an open-source technique created by Microsoft for machine learning tasks like classification and regression. It is quite similar to XGBoost as it too uses decision trees to classify data.
 
-## Conclusion
+## :triangular_flag_on_post: Conclusion
 ![plot6](https://github.com/ACM40960/project-Devansh22201475/blob/main/Plots/Graph_6.png?raw=true)
 
 The trend line plot here describes the sales of items per year. This gives us a clear idea of how the sales trend has changed over year for every month. We could see that the sales needs to be predicted for year 2015 for November (i.e. month 11) and December (i.e. month 12).
